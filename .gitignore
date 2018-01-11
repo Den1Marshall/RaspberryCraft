@@ -1,0 +1,10 @@
+
+*.db
+
+plugins/AuthMe/authme.log
+
+plugins/AuthMe/config.yml
+
+plugins/AuthMe/email.html
+
+plugins/AuthMe/GeoIP.dat
