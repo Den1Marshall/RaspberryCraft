@@ -1,0 +1,34 @@
+lastAccountName: DenGG
+timestamps:
+  login: 1515590440050
+  logout: 1515592416842
+  lastteleport: 1515592168062
+  kits:
+    start: 1515590053924
+    vip: 1515592112371
+ipAddress: 185.177.242.207
+geolocation: Odessa, Odes'ka Oblast', Ukraine
+lastlocation:
+  world: world
+  x: 83.94789862841243
+  y: 71.0
+  z: 541.1268485316301
+  yaw: -76.85404
+  pitch: 31.506348
+godmode: true
+logoutlocation:
+  world: world
+  x: 81.8909936298069
+  y: 71.0
+  z: 541.8406136587597
+  yaw: 88.363754
+  pitch: 15.020792
+homes:
+  home:
+    world: world
+    x: 80.60809868476588
+    y: 71.0
+    z: 541.6630203477828
+    yaw: -261.47577
+    pitch: 26.325638
+afk: false

@@ -1,0 +1,134 @@
+# DO NOT EDIT -- file is written to periodically!
+# Seriously, do not edit. Today it is YAML, tomorrow it may not be.
+# If you edit this file and you have problems, you are on your own!
+players: []
+groups:
+- name: adminop
+  permissions: {}
+  metadata: {}
+  priority: 7
+  members: []
+  tempmembers: []
+- name: default
+  permissions:
+    authme.player.*: true
+    authme.player.logout: false
+    authme.player.unregister: false
+    chatcontrol.group.default: true
+    essentials.afk.auto: true
+    essentials.getpos: true
+    essentials.help: true
+    essentials.helpop: true
+    essentials.ignore: true
+    essentials.kits.bonus: true
+    essentials.kits.start: true
+    essentials.list: true
+    essentials.msg: true
+    essentials.pay: true
+    modifyworld.*: true
+    essentials.rules: true
+    essentials.suicide: true
+    essentials.keepxp: true
+    essentials.home: true
+    essentials.home.bed: true
+    essentials.sethome: true
+    essentials.delhome: true
+    essentials.spawn: true
+    essentials.balance: true
+    essentials.balance.others: true
+    essentials.tpa: true
+    essentials.tpaccept: true
+    essentials.tpahere: true
+    essentials.tpdeny: true
+    essentials.warp: true
+    essentials.warp.list: true
+  metadata:
+    prefix: '&8&l[&3Игрок&8&l] &7'
+    suffix: ' &8> &7&o'
+  priority: 0
+  members: []
+  tempmembers: []
+- name: helper
+  permissions:
+    essentials.ban: true
+    essentials.geoip.show: true
+    essentials.whois: true
+    essentials.ban.exempt: true
+    essentials.ban.notify: true
+    essentials.ban.offline: true
+    essentials.banip: false
+    essentials.invsee: true
+    essentials.kick: true
+    essentials.kick.exempt: true
+    essentials.kick.notify: true
+    essentials.kill.exempt: true
+    essentials.ping: true
+    essentials.setjail: true
+    essentials.socialspy: true
+  metadata:
+    prefix: '&8&l[&b&lHELPER&8&l] &f&l'
+    suffix: ' &8> &3&o'
+  priority: 6
+  members: []
+  tempmembers: []
+- name: mvp
+  permissions: {}
+  metadata:
+    prefix: '&8&l[&5&lMVP&8&l] &f'
+    suffix: ' &8> &2&o'
+  priority: 3
+  members: []
+  tempmembers: []
+- name: mvp+
+  permissions:
+    prefix: '&8&l[&5&lMVP&6&l+&8&l] &f'
+    suffix: ' &8> &3&o'
+  metadata:
+    essentials.nick: true
+    essentials.nick.color: true
+  priority: 4
+  members: []
+  tempmembers: []
+- name: mvp++
+  permissions:
+    essentials.kill.exempt: true
+  metadata:
+    prefix: '&8&l[&5&lMVP&6&l++&8&l] &f'
+    suffix: ' &8> &3&o'
+  priority: 5
+  members: []
+  tempmembers: []
+- name: r00t
+  permissions:
+    '*.*': true
+  metadata:
+    prefix: '&0&l[&4&l&oroot&0&l] &f&l'
+    suffix: ' &b&l>  '
+  priority: 10
+  members:
+  - uuid: 101d3d2ab882400e92bae830ceccae04
+    name: p0werpwn
+  tempmembers: []
+- name: vip
+  permissions:
+    essentials.msg.color: true
+    essentials.craftbench: true
+  metadata:
+    prefix: '&8&l[&6VIP&8&l] &7'
+    suffix: ' &8> &2&o'
+  priority: 1
+  members: []
+  tempmembers: []
+- name: vip+
+  permissions:
+    essentials.msg.format: true
+    essentials.msg.magic: true
+    essentials.clearinventory: true
+    essentials.enderchest: true
+    essentials.back.ondeath: true
+  metadata: 
+    prefix: '&8&l[&6&lVIP&a&l+&8&l] &7'
+    suffix: ' &8> &2&o'
+  priority: 2
+  members: []
+  tempmembers: []

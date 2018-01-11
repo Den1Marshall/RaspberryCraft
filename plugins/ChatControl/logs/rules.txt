@@ -1,0 +1,1 @@
+[10.01.2018 14:50:05] DenGG: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1

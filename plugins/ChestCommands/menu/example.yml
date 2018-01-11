@@ -1,0 +1,307 @@
+######################
+#+                  +#
+#   Настройки меню   #
+#+                  +#
+######################
+
+menu-settings:
+
+  # имя - находится в тайтле (там где пишется Chest) - ОБЯЗАТЕЛЬНО
+  name: '&1&lМ&2&lе&3&lн&4&lю'
+
+  # количество рядов сундука (макс. 6) - ОБЯЗАТЕЛЬНО
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'menu'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # команда будет выполнена при открытии
+  open-action: 
+
+  # открыть с помощью предметв
+  open-with-item:
+    id: end_crystal
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#      Предметы      #
+#+                  +#
+######################
+close:
+  NAME: '&4&lЗакрыть'
+  ID: barrier
+  POSITION-X: 5
+  POSITION-Y: 5
+  
+spawn:
+  COMMAND: 'spawn'
+  NAME: '&b&oТелепортироваться на спавн'
+  LORE:
+    - 'Кликни что бы телепортироваться на спавн'
+  ID: compass
+  POSITION-X: 3
+  POSITION-Y: 3
+  
+rules:
+  COMMAND: 'rules'
+  NAME: '&c&oПравила сервера'
+  LORE:
+    - 'Кликни, что бы ознакомиться с'
+    - 'правилами сервера'
+  ID: 386
+  POSITION-X: 4
+  POSITION-Y: 3
+  
+batoot:
+  COMMAND: 'batoot'
+  NAME: '&6&oБатут'
+  LORE:
+    - 'Тут можно повеселиться ;)'
+  ID: 165
+  POSITION-X: 3
+  POSITION-Y: 4
+
+# ниже стекла (красивое выделенее по краям), ничего не изменять!
+
+glass1:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+
+glass2:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+
+glass3:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 3
+
+glass4:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 4
+  
+glass5:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 5
+
+glass6:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 6
+  
+glass7:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 6
+  
+glass8:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 6
+  
+glass9:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 6
+  
+glass10:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 6
+  
+glass11:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 6
+
+glass12:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 6
+  
+glass13:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 6
+  
+glass14:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 6
+  
+glass15:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 5
+  
+glass16:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 4
+  
+glass17:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 3
+  
+glass18:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 2
+  
+glass19:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+  
+glass20:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 1
+  
+glass21:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 1
+   
+glass22:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+  
+glass23:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+  
+glass24:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+  
+glass25:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+  
+glass26:
+  COMMAND: ' '
+  NAME: ' '
+  LORE: ' '
+  ID: stained_glass_pane:6
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1

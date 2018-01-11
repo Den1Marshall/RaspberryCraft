@@ -1,0 +1,25 @@
+afk: false
+timestamps:
+  kits:
+    start: 1514985343316
+    vip: 1515073103232
+    tools: 1514651230032
+  logout: 1515590072039
+  login: 1515612359256
+  lastteleport: 1515615683135
+logoutlocation:
+  world: world
+  x: -135.98090181809314
+  y: 63.9375
+  z: 644.7706189636212
+  yaw: 82.57104
+  pitch: 15.887251
+lastAccountName: p0werpwn
+ipAddress: 192.168.31.1
+lastlocation:
+  world: world
+  x: -198.30000001192093
+  y: 61.756399390674574
+  z: 695.3000000119209
+  yaw: 267.83575
+  pitch: -7.9500895
